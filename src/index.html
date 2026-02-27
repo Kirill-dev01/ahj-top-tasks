@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TOP Tasks</title>
+</head>
+
+<body>
+  <div class="tracker-container">
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Введите задачу и нажмите Enter...">
+      <div id="error-message" class="error hidden">Пожалуйста, введите название задачи!</div>
+    </form>
+
+    <div class="task-section">
+      <h2>Pinned:</h2>
+      <ul id="pinned-tasks" class="task-list">
+      </ul>
+    </div>
+
+    <div class="task-section">
+      <h2>All Tasks:</h2>
+      <ul id="all-tasks" class="task-list">
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
